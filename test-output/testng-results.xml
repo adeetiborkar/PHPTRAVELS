@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38468" started-at="2020-05-25T16:00:50Z" finished-at="2020-05-25T16:01:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38468" started-at="2020-05-25T16:00:50Z" finished-at="2020-05-25T16:01:28Z">
+      <class name="GaneshBorkar.NSE.SupplerLogin">
+        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="initializeDriver" is-config="true" duration-ms="14426" started-at="2020-05-25T21:30:50Z" finished-at="2020-05-25T21:31:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDriver -->
+        <test-method status="PASS" signature="login()[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="login" duration-ms="8724" started-at="2020-05-25T21:31:04Z" finished-at="2020-05-25T21:31:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="SuplierLogin(java.lang.String, java.lang.String)[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="SuplierLogin" duration-ms="4626" started-at="2020-05-25T21:31:13Z" data-provider="dataSet" depends-on-methods="GaneshBorkar.NSE.SupplerLogin.login" finished-at="2020-05-25T21:31:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abcdefg@sfffff.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Adfjn223232]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuplierLogin -->
+        <test-method status="PASS" signature="SuplierLogin(java.lang.String, java.lang.String)[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="SuplierLogin" duration-ms="4654" started-at="2020-05-25T21:31:18Z" data-provider="dataSet" depends-on-methods="GaneshBorkar.NSE.SupplerLogin.login" finished-at="2020-05-25T21:31:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[afbabjfkja@kjdgsj.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[kjfndndkjfnlfklf24x]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuplierLogin -->
+        <test-method status="PASS" signature="SuplierLogin(java.lang.String, java.lang.String)[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="SuplierLogin" duration-ms="4555" started-at="2020-05-25T21:31:22Z" data-provider="dataSet" depends-on-methods="GaneshBorkar.NSE.SupplerLogin.login" finished-at="2020-05-25T21:31:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ user@phptravels.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[demouser]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SuplierLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="tearDown" is-config="true" duration-ms="1431" started-at="2020-05-25T21:31:27Z" finished-at="2020-05-25T21:31:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- GaneshBorkar.NSE.SupplerLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

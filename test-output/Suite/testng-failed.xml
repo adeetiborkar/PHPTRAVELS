@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Login(failed)">
+    <classes>
+      <class name="GaneshBorkar.NSE.SupplerLogin">
+        <methods>
+          <include name="login"/>
+          <include name="window"/>
+        </methods>
+      </class> <!-- GaneshBorkar.NSE.SupplerLogin -->
+      <class name="GaneshBorkar.NSE.PHPTRAVELS">
+        <methods>
+          <include name="initializeDrive"/>
+        </methods>
+      </class> <!-- GaneshBorkar.NSE.PHPTRAVELS -->
+    </classes>
+  </test> <!-- Login(failed) -->
+</suite> <!-- Failed suite [Suite] -->
