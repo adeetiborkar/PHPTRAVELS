@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="38468" started-at="2020-05-25T16:00:50Z" finished-at="2020-05-25T16:01:28Z">
+  <suite name="Suite" duration-ms="63923" started-at="2020-05-25T18:47:53Z" finished-at="2020-05-25T18:48:57Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="38468" started-at="2020-05-25T16:00:50Z" finished-at="2020-05-25T16:01:28Z">
+    <test name="Test1" duration-ms="52780" started-at="2020-05-25T18:47:53Z" finished-at="2020-05-25T18:48:46Z">
       <class name="GaneshBorkar.NSE.SupplerLogin">
-        <test-method status="PASS" signature="initializeDriver()[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="initializeDriver" is-config="true" duration-ms="14426" started-at="2020-05-25T21:30:50Z" finished-at="2020-05-25T21:31:04Z">
+        <test-method status="PASS" signature="initializeDriver2()[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@6d4b1c02]" name="initializeDriver2" is-config="true" duration-ms="26395" started-at="2020-05-26T00:17:53Z" finished-at="2020-05-26T00:18:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initializeDriver -->
-        <test-method status="PASS" signature="login()[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="login" duration-ms="8724" started-at="2020-05-25T21:31:04Z" finished-at="2020-05-25T21:31:13Z">
+        </test-method> <!-- initializeDriver2 -->
+        <test-method status="PASS" signature="login()[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@6d4b1c02]" name="login" duration-ms="9389" started-at="2020-05-26T00:18:20Z" finished-at="2020-05-26T00:18:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="SuplierLogin(java.lang.String, java.lang.String)[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="SuplierLogin" duration-ms="4626" started-at="2020-05-25T21:31:13Z" data-provider="dataSet" depends-on-methods="GaneshBorkar.NSE.SupplerLogin.login" finished-at="2020-05-25T21:31:18Z">
+        <test-method status="PASS" signature="SuplierLogin(java.lang.String, java.lang.String)[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@6d4b1c02]" name="SuplierLogin" duration-ms="4661" started-at="2020-05-26T00:18:30Z" data-provider="dataSet" depends-on-methods="GaneshBorkar.NSE.SupplerLogin.login" finished-at="2020-05-26T00:18:35Z">
           <params>
             <param index="0">
               <value>
@@ -31,7 +31,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuplierLogin -->
-        <test-method status="PASS" signature="SuplierLogin(java.lang.String, java.lang.String)[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="SuplierLogin" duration-ms="4654" started-at="2020-05-25T21:31:18Z" data-provider="dataSet" depends-on-methods="GaneshBorkar.NSE.SupplerLogin.login" finished-at="2020-05-25T21:31:22Z">
+        <test-method status="PASS" signature="SuplierLogin(java.lang.String, java.lang.String)[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@6d4b1c02]" name="SuplierLogin" duration-ms="4858" started-at="2020-05-26T00:18:35Z" data-provider="dataSet" depends-on-methods="GaneshBorkar.NSE.SupplerLogin.login" finished-at="2020-05-26T00:18:39Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuplierLogin -->
-        <test-method status="PASS" signature="SuplierLogin(java.lang.String, java.lang.String)[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="SuplierLogin" duration-ms="4555" started-at="2020-05-25T21:31:22Z" data-provider="dataSet" depends-on-methods="GaneshBorkar.NSE.SupplerLogin.login" finished-at="2020-05-25T21:31:27Z">
+        <test-method status="PASS" signature="SuplierLogin(java.lang.String, java.lang.String)[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@6d4b1c02]" name="SuplierLogin" duration-ms="4671" started-at="2020-05-26T00:18:39Z" data-provider="dataSet" depends-on-methods="GaneshBorkar.NSE.SupplerLogin.login" finished-at="2020-05-26T00:18:44Z">
           <params>
             <param index="0">
               <value>
@@ -63,11 +63,35 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SuplierLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@8bd1b6a]" name="tearDown" is-config="true" duration-ms="1431" started-at="2020-05-25T21:31:27Z" finished-at="2020-05-25T21:31:28Z">
+        <test-method status="PASS" signature="tearDown2()[pri:0, instance:GaneshBorkar.NSE.SupplerLogin@6d4b1c02]" name="tearDown2" is-config="true" duration-ms="1942" started-at="2020-05-26T00:18:44Z" finished-at="2020-05-26T00:18:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
+        </test-method> <!-- tearDown2 -->
       </class> <!-- GaneshBorkar.NSE.SupplerLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="10831" started-at="2020-05-25T18:48:46Z" finished-at="2020-05-25T18:48:57Z">
+      <class name="GaneshBorkar.NSE.PHPTRAVELS">
+        <test-method status="PASS" signature="initializeDrive()[pri:0, instance:GaneshBorkar.NSE.PHPTRAVELS@3c0ecd4b]" name="initializeDrive" is-config="true" duration-ms="8865" started-at="2020-05-26T00:18:46Z" finished-at="2020-05-26T00:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeDrive -->
+        <test-method status="PASS" signature="validateTitle()[pri:0, instance:GaneshBorkar.NSE.PHPTRAVELS@3c0ecd4b]" name="validateTitle" duration-ms="35" started-at="2020-05-26T00:18:55Z" finished-at="2020-05-26T00:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateTitle -->
+        <test-method status="PASS" signature="ValidateText()[pri:1, instance:GaneshBorkar.NSE.PHPTRAVELS@3c0ecd4b]" name="ValidateText" duration-ms="107" started-at="2020-05-26T00:18:55Z" finished-at="2020-05-26T00:18:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateText -->
+        <test-method status="PASS" signature="getTerms_of_use()[pri:3, instance:GaneshBorkar.NSE.PHPTRAVELS@3c0ecd4b]" name="getTerms_of_use" duration-ms="812" started-at="2020-05-26T00:18:55Z" finished-at="2020-05-26T00:18:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getTerms_of_use -->
+        <test-method status="PASS" signature="tearDown1()[pri:0, instance:GaneshBorkar.NSE.PHPTRAVELS@3c0ecd4b]" name="tearDown1" is-config="true" duration-ms="996" started-at="2020-05-26T00:18:56Z" finished-at="2020-05-26T00:18:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown1 -->
+      </class> <!-- GaneshBorkar.NSE.PHPTRAVELS -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

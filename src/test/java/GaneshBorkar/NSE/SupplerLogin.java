@@ -21,7 +21,7 @@ public class SupplerLogin extends Base {
 	public SuppierLogin slogin;
 
 	@BeforeTest
-	public void initializeDriver() throws IOException {
+	public void initializeDriver2() throws IOException {
 		driver = intializeDriver();
 
 	}
@@ -83,7 +83,7 @@ public class SupplerLogin extends Base {
 
 	@AfterTest
 	
-	public void tearDown() {
+	public void tearDown2() {
 
 		driver.quit();
 	}

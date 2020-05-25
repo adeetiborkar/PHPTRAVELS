@@ -93,7 +93,7 @@ public class PHPTRAVELS extends Base{
 
 	@AfterTest
 	
-	public void tearDown() {
+	public void tearDown1() {
 
 		driver.quit();
 	}
